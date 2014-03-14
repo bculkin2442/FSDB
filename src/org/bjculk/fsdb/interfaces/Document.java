@@ -33,7 +33,7 @@ import java.util.Map;
  *
  * @author Benjamin
  */
-public interface Document extends Iterator<String> {
+public interface Document {
 
   /**
    * Get the MIME type of this document. May be a wildcard MIME type like

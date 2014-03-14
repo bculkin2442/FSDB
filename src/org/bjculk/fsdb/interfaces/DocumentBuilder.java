@@ -99,4 +99,9 @@ public interface DocumentBuilder {
    * @return A list of documents, one for each volume
    */
   List<Document> getDocumentVolumes(List<InputStream> isl);
+
+  /**
+   * Switch the current document in production to a new one
+   */
+  void clear();
 }
